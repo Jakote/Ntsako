@@ -2,25 +2,26 @@ package com.example.SecondProjecdemo.Model;
 
 
 
+
 import javax.persistence.*;
 
 @Entity
-@Table(name = "user")
+@Table
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
 
-    @Column(name="userName")
+
     private String userName;
 
-    @Column(name="email")
+
     private String email;
 
-    @Column(name="password")
+
     private String password;
 
-    @Column(name="age")
+
     private int age;
 
     public User() {
