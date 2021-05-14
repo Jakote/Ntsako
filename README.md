@@ -13,3 +13,5 @@ SPRING BOOT GROUP ASSINGMENT
      7. USE Conctrollers && Repos
      8. USE Services (users,spring securty Userdetails services)
      9. USE MODELS
+     10. Practise on git push and pull.
+     
